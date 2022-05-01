@@ -37,7 +37,7 @@ contract NewBallot {
     }
 
     function periodEnded() public view virtual returns (bool) {
-        if (block.timestamp - startTime > 60) {
+        if (block.timestamp - startTime > 60*5) {
             return true;
         } else {
             return false;

@@ -1,1 +1,3 @@
-# zku_assignments
+# Simple Contracts for Solidity
+
+
